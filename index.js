@@ -23,6 +23,8 @@ button.addEventListener('click', function() {
     } else {
         invalid.classList.add('show');
         body.style.backgroundImage = 'url("gambar/Dino.jpg")';
+        navbar.style.backgroundColor = '#00cccc';
+        sumbit.style.backgroundColor = '#00cccc';
     }
 
 });
