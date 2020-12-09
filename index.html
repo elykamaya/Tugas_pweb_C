@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css_reset.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Login</h1>
+    </div>
+    <div class="container">
+        <form id="data" name="identitas" method="post">
+            <label for="username">username</label>
+            <input name="username" type="text" placeholder=" username">
+            
+            <label for="password">password</label>
+            <input name="password" type="password" placeholder=" password">
+            <center>
+                <button data-toggle="modal">Submit</button>
+                <div class="invalid">invalid username or password</div>
+            </center>
+        </form>
+    </div>
+    <br\>
+    <div class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    SUCCESS
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
